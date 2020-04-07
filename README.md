@@ -16,7 +16,7 @@ No known bugs at the moment
 + Bootstrap
 
 ## GitHub link
-To open Quote of the Day [Click Here](https://martingathu.github.io/Githubsearch/)
+To open Githubsearch  [Click Here](https://martingathu.github.io/Githubsearch/)
 ## Support and contact details
 for any querries contact me via Martin5gathu@gmail.com.
 
