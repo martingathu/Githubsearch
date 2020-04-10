@@ -1,0 +1,9 @@
+/* Style the search box */
+.search{
+    padding: 6px;
+    font-size: 17px;
+  }
+.searchbox{
+    margin-left: 10%;
+    margin-top: 20px;
+}
