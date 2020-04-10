@@ -1,0 +1,24 @@
+/* Style the search box */
+.search{
+    padding: 6px;
+    font-size: 17px;
+  }
+.searchbox{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.users{ 
+    padding: 10px;
+}
+.card{
+    margin: 10px;
+}
+.profileimage{
+    height: 250px;
+    width: 250px;
+    
+}
+.btn{
+    margin: 10px;
+
+}
