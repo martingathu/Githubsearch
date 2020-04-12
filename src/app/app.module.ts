@@ -9,13 +9,17 @@ import { RepoComponent } from './repo/repo.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileRequestService } from '../app/profileService/profile-request.service'
 import { HttpClientModule } from '@angular/common/http';
+import { DateCountPipe } from './date-count.pipe';
+import { LatestRepoDirective } from './latest-repo.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     RepoComponent,
-    ProfileComponent
+    ProfileComponent,
+    DateCountPipe,
+    LatestRepoDirective
   ],
   imports: [
     BrowserModule,

@@ -21,7 +21,7 @@
                         <li class="list-group-item"><strong>Name: </strong> {{profile.name}}</li>
                         <li class="list-group-item"><strong>Email: </strong> {{profile.email}}</li>
                         <li class="list-group-item"><strong>Location: </strong> {{profile.location}}</li>
-                        <!-- <li class="list-group-item"><strong>Created: </strong> {{user.created_at | dateAgo}}</li> -->
+                        <li class="list-group-item"><strong>Created: </strong> {{profile.created_at | dateCount}}</li> 
                     </ul>
 
                     <div class="stats">
@@ -44,7 +44,7 @@
             <div class="card row">
                 <div class="card-body">
                     <h3>{{repo.name}}</h3>
-                    <!-- <p>Created: {{repo.created_at | dateAgo}}</p> -->
+                    <p>Created: {{repo.created_at | dateCount}}</p>
                     <p>Language Used: {{repo.language}}</p>
                     <p>{{repo.description}}</p>
                     <span><a href="{{repo.html_url}}" target="_blank" class="btn btn-success">View Project</a></span>
