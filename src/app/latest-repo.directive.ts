@@ -1,10 +1,14 @@
-import { Directive } from '@angular/core';
+import { Directive,  ElementRef, HostListener } from '@angular/core';
 
 @Directive({
-  selector: '[appLatestRepo]'
+  selector: '[appHighlight]'
 })
 export class LatestRepoDirective {
 
-  constructor() { }
+  constructor(private elem:ElementRef) {}
+  @HostListener("click") onClicks(){
+    this.elem.nativeElement.style.color='red';
+  }
+
 
 }
