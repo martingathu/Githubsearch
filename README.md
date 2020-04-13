@@ -1,7 +1,7 @@
 # Githubsearch website
 #### By **Karanja Martin Gathu** 03RD APRIL 2020
 ## Description
-Githubsearch is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.
+Githubsearch is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories and be able to view the repositories on Github.
 
 ## Setup/Installation Requirements
 + Clone this repository [Githubsearch](https://github.com/martingathu/Githubsearch)
