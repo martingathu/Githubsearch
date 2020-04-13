@@ -8,7 +8,7 @@ import { ProfileRequestService } from '../profileService/profile-request.service
 })
 export class RepoComponent implements OnInit {
   repoitems: any[];
-  repoName:string= "akan";
+  repoName:string= "Githubsearch";
 
   constructor( private profileService:ProfileRequestService) { 
     
